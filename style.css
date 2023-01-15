@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 894px;
+    height: 100px;
+    margin:auto;
+    background-color: #DCA900;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+.ffcontainer{
+    height: 60vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+.f-container{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    background-color:#cdcdcd ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    color: #DCA900;
+    text-align: center;
+   margin:0px 10px 0 10px;
+   padding-top: 8px;
+    
+}
+.f-container2{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:500px;
+    background-color: #7f7f7f;
+   
+
+}
+.flex1, .flex2, .flex3{
+    width:350px;
+    height: 480px;
+    background-color:white ;
+    border: 5px solid black;
+    overflow: hidden;
+    margin: 10px;
+    border: none;
+    padding: 10px 5px 0px 10px;
+    
+}
+.flex1 button{
+    width: 92%;
+   position: relative;
+   top: 178px;
+   left: 10px;
+  }
+  .flex2 button{
+     width:92%;
+     position: relative;
+   top: 225px;
+   left: 10px;
+  }
+  .flex3 button{
+     width:92%;
+     position: relative;
+   top: 150px;
+   left: 10px;
+  }
+footer{
+    width:894px;
+    height: 60px;
+    background-color: #DCA900;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    padding-top:15px;
+}
+
